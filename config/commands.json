@@ -1,0 +1,26 @@
+{
+  "help": {
+		"alias": [ "halp" ],
+		"endpoint": "#",
+		"help": "help [command](optional)",
+		"description": "To get help on all supported commands, or a specified command"
+	},
+
+  "hey": {
+		"alias": [ "님아" ],
+		"endpoint": "#",
+		"help": "hey",
+		"description": "단순히 봇을 불러본다. 님아."
+	},
+
+	"gem": {
+		"alias": [],
+		"endpoint": "https://rubygems.org/api/v1/gems/{gem}.json",
+		"help": "gem [gem-name]",
+		"description": "Fetches details of the specified Ruby gem"
+	},
+
+	"error": {
+		"exclude": true
+	}
+}
